@@ -38,6 +38,16 @@
   --fs-h3: 1.25rem;
   --fs-paragraph: 1rem;
   --fs-span: 0.875rem;
+
+  /* CONTAINER SPACE */
+
+  /* HORIZONTAL */
+  --padding-x: 1.5rem;
+
+  /* VERTICAL */
+  --padding-y-base: 1rem;
+  --padding-y-large: 1.5rem;
+  --padding-y-xl: 3rem;
 }
 
 html {
@@ -72,14 +82,6 @@ h3 {
   font-size: var(--fs-h3);
 }
 
-@media (width >= 80em) {
-  :root {
-    --fs-h1: 4rem;
-    --fs-h2: 3rem;
-    --fs-h3: 2rem;
-  }
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -87,4 +89,17 @@ a {
 
 list[role="list"] {
   list-style: none;
+}
+
+@media (width >= 80em) {
+  :root {
+    --fs-h1: 4rem;
+    --fs-h2: 3rem;
+    --fs-h3: 2rem;
+
+    --padding-x: 2rem;
+    --padding-y-base: 1.5rem;
+    --padding-y-large: 2.5rem;
+    --padding-y-xl: 5rem;
+  }
 }
