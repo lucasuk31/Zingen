@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Zingen é um projeto fictício para usar como um um aplicativo de músicas focado em Karaoke, com plano individual ou família.
+O Zingen é um projeto fictício para usar como um aplicativo de músicas focado em Karaoke, com plano individual ou família.
 
 ## 🔖 Layout
 
